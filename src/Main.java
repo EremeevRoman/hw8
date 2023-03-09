@@ -1,5 +1,7 @@
 import org.w3c.dom.ls.LSOutput;
 
+import java.util.Arrays;
+
 public class Main {
     public static void main(String[] args) {
         task1();
@@ -60,12 +62,11 @@ public class Main {
     public static void task4() {
         System.out.println("Задача 4");
         int[] arr = {1, 2, 3};
-        for (int i = 1; i < 12; i++) {
-            if (i % 2 != 0) ;
-            else
-                System.out.println(i);
+        for (int i = 0; i <arr.length; i++) {
+            if (arr [i] % 2 == 0);
+            else arr[i]+=1;}
+            System.out.println(Arrays.toString(arr));
         }
 
 
     }
-}
